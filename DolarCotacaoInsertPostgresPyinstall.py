@@ -1,7 +1,14 @@
+
+
+
+
+
 from  selenium import *
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
+from webdriver_manager.firefox import GeckoDriverManager
+from selenium.webdriver.firefox.service import Service as GeckoService
 
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.edge.service import Service as EdgeService  # noqa
@@ -11,9 +18,9 @@ from selenium.webdriver.common.by import By
 # opt = webdriver.ChromeOptions()
 # opt.arguments.append("headless")
 # Setup chrome driver
-options = webdriver.EdgeOptions() 
+options = webdriver.FirefoxOptions() 
 options = options.add_argument("--headless")
-driver = webdriver.Edge(options=options,service=EdgeService(EdgeChromiumDriverManager().install()))
+driver = webdriver.Firefox(options=options,service=GeckoService(GeckoDriverManager().install()))
 
 # Navigate to the url
 driver.get('https://www.bloomberg.com/quote/USDBRL:CUR')
