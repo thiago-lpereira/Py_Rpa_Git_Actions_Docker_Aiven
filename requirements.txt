@@ -2,4 +2,4 @@ selenium[all]
 webdriver_manager[all]
 flask_sqlalchemy[all]
 flask[all]
-Coverage[
+Coverage
