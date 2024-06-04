@@ -37,7 +37,7 @@ jobs:
     - name: TRYING TO PUSH IT 
       uses: mr-smithers-excellent/docker-build-push@v6.4
       with:
-        image: thiagolpereira/image
+        image: thiagolpereira/py_rpa_selenium-git_actions
         tags: latest,${{ github.run_number }}
         registry: docker.io
         dockerfile: dockerfile
