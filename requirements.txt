@@ -2,8 +2,4 @@ selenium[all]
 webdriver_manager[all]
 flask_sqlalchemy[all]
 flask[all]
-webdriver_manager.microsoft
-webdriver_manager.chrome
-selenium.webdriver.edge.service
-selenium.webdriver.common.by
 Coverage
