@@ -8,6 +8,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 RUN pip install --upgrade flask werkzeug
 
+RUN apt install microsoft-edge-stable
+
 
 EXPOSE 5000
 
