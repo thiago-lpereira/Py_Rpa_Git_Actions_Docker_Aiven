@@ -1,4 +1,3 @@
 selenium[all]
-time[all]
 psycopg2[all]
 Coverage
