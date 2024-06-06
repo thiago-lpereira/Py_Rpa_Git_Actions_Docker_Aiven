@@ -28,7 +28,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Test with pytest
       run: |
-        coverage run -m DolarCotacaoInsertPostgresPyinstall.py
+        coverage run -m DolarCotacaoInsertPostgresPyinstall
  
     - name: Results
       run: coverage report
