@@ -1,3 +1,4 @@
 selenium[all]
 psycopg2[all]
+webdriver_manager
 Coverage
