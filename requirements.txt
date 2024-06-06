@@ -1,4 +1,4 @@
-selenium
-time
-psycopg2
+selenium[all]
+time[all]
+psycopg2[all]
 Coverage
