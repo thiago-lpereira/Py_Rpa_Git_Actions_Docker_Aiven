@@ -1,5 +1,4 @@
-selenium[all]
-webdriver_manager[all]
-flask_sqlalchemy[all]
-flask[all]
+selenium
+time
+psycopg2
 Coverage
